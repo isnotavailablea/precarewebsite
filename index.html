@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health-predictor</title>
+</head>
+<link rel="stylesheet" href="index.css">
+
+<body>
+    <div class="navbar upper">
+        <div class="inside"><a href="">About Us</a></div>
+        <div class="name">Precare</div>
+        <div class="inside"><a href="disclaimer.html">Disclaimer</a></div>
+    </div>
+    <div class="bod upper">
+        <div class="tagos selecters" id="gen">
+            <div class="tag">Gender</div>
+            <div class="insider">
+                <div class="selectme"><input type="radio" name="g" id="m" value="Male">Male</div>
+                <div class="selectme"><input type="radio" name="g" id="f" value="Female">Female</div>
+            </div>
+        </div>
+        <div class="tagos" id="ag">
+            <div class="tag">age</div>
+            <div class="insider"><input type="number" name="age" id="age">
+            </div>
+        </div>
+        <div class="tagos selecters" id="ecg">
+            <div class="tag">Ecg changes</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="9jin" id="ey">Yes</div>
+
+                <div class="selectme"><input type="radio" name="9jin" id="en">No</div>
+            </div>
+        </div>
+        <div class="tagos selecters" id="ckmb">
+            <div class="tag">ckmb</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="ckmbd" id="cm">YES</div>
+
+                <div class="selectme"><input type="radio" name="ckmbd" id="cn">NO</div>
+            </div>
+        </div>
+        <div class="tagos selecters" id="chestpain">
+            <div class="tag">chestpain</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="cp" id="pm">no</div>
+
+                <div class="selectme"><input type="radio" name="cp" id="pn">yes</div>
+                <div class="selectme"><input type="radio" name="cp" id="pv">very high</div>
+            </div>
+        </div>
+        <div class="tagos selecters" id="dia">
+            <div class="tag">Diabetes</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="dbia" id="dm">yes</div>
+
+                <div class="selectme"><input type="radio" name="dbia" id="dn">no</div>
+            </div>
+        </div>
+
+        <div class="tagos selecters" id="phf">
+            <div class="tag">family-history?</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="fh" id="fm">yes</div>
+
+                <div class="selectme"><input type="radio" name="fh" id="fn">no</div>
+            </div>
+        </div>
+        <div class="tagos selecters" id="cholestrol">
+            <div class="tag">cholestrol level</div>
+            <div class="insider">
+
+                <div class="selectme"><input type="radio" name="chol" id="chm">194-224</div>
+
+                <div class="selectme"><input type="radio" name="chol" id="chf">above-224</div>
+            </div>
+        </div>
+    </div>
+    <div class="end upper"><button id="subit">Submit</button></div>
+    <div class="resultdisplay">
+        <div class="square" id="rotate">
+
+        </div>
+        <div class="displayer">
+            <div class="explainer">Your <span>theoretical</span>  chances are: </div>
+            <div class="result"></div>
+            <div class="discla"><a href="disclaimer.html">disclaimer</a></div>
+        </div>
+    </div>
+</body>
+<script type="module" src="./index.js"></script>
+
+</html>

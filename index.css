@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #492cdd;
+}
+.tagos:hover{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem 1rem;
+    background-color: #492cdd;
+    max-height: 4rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+}
+.navbar div{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-family: cursive;
+    font-weight: 800;
+    color: hotpink;
+    overflow: hidden;
+}
+.name:hover{
+    font-size: 3rem;
+
+}
+.tagos{
+    display: flex;
+    margin: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+.tag{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 5rem 0 0;
+    border: 0px solid white ;
+
+}
+.insider{
+   /* background-color: blue;*/
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.insider .selectme{
+    font-size: 1.4rem;
+    color: purple;
+    font-family: cursive;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+button{
+    color: purple;
+    padding: 0.5rem;
+    font-family: cursive;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+    a{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .tagos{
+        padding: 1.5rem 0 1.5rem 0.2rem;
+    }
+    .tagos .tag{
+        font-size: 1rem;
+    }
+    .insider{
+        width: 50%;
+    }
+}
+
+
+.resultdisplay{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayer{
+    background-color: white;
+    width: 40vw;
+    padding: 2rem;
+    border: blanchedalmond;
+    border-radius: 10px;
+}
+.explainer{
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+.explainer span{
+    color:red
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: purple;
+    font-family: cursive;
+}
+.discla{
+    display: flex;
+    justify-content: center;
+}
+.discla a{
+    color: red;
+    font-size: 2rem;
+}
+.resultdisplay{
+    display: none;
+}
+/* .square{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+    
+} */
