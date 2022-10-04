@@ -7540,6 +7540,7 @@ function converttostring(num){
 }
 function alertmes(){
     alert("Please fill the form correctly\nage should be between 26 and 90\nall boxes must be checked")
+    location.reload()
 }
 function stringcr(){
     var age=document.getElementById("age").value
@@ -7548,6 +7549,7 @@ function stringcr(){
     }
     else{
         alertmes()
+        return 
     }//ecg
     var ecgy=document.getElementById("ey")
     //console.log(ecgy)
@@ -7559,6 +7561,7 @@ function stringcr(){
     }
     else{
         alertmes();
+        return 
     }
     //ckmb
     if(document.getElementById("cm").checked){
@@ -7569,6 +7572,7 @@ function stringcr(){
     }
     else{
         alertmes();
+        return 
     }
     //chestpain
     if(document.getElementById("pm").checked){
@@ -7582,6 +7586,7 @@ function stringcr(){
     }
     else{
         alertmes()
+        return 
     }
     //diabetes
     if(document.getElementById("dm").checked){
@@ -7592,6 +7597,7 @@ function stringcr(){
     }
     else{
         alertmes();
+        return 
     }
     //family history
     if(document.getElementById("fm").checked){
@@ -7602,6 +7608,7 @@ function stringcr(){
     }
     else{
         alertmes();
+        return 
     }
     //cholestrol
     if(document.getElementById("chm").checked){
@@ -7612,6 +7619,7 @@ function stringcr(){
     }
     else{
         alertmes();
+        return 
     }
     console.log(mainstring)
 }
