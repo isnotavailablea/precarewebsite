@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+   <div class="container">
+    <div class="left">
+        <div class="box">
+
+        </div>
+        <div class="instr">
+                Instructions
+        </div>
+        <div class="txt">
+                Enter Biomarkers to analyse heart failure probability
+        </div>
+        <div class="mainimg">
+            <img src="./cardiac.webp" alt="">
+        </div>
+        <div class="side">
+            <div class="links">
+                <div class="github">
+                    <img src="./github.png" alt="">
+                </div>
+                <!-- <div class="linkedin">
+                    <img src="./linkedin.png" alt="">
+                </div>
+                <div class="xl">
+                    <img src="./unnamed.webp" alt="">
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <h1>
+            Heart failure predictor
+        </h1>
+        <div class="fo" id="one">
+            <div class="heading">
+                Patient Information
+            </div>
+            <div class="row row1">
+                <div class="row-part">
+                    <p>Gender</p>
+                    <select name="gender" id="gender">
+                        <option value="1">Male</option>
+                        <option value="0">female</option>
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>Age</p>
+                    <select name="age" id="age">
+                        <option value="0">26-30</option>
+                        <option value="1">31-35</option>
+                        <option value="2">36-40</option>
+                        <option value="3">41-45</option>
+                        <option value="4">46-50</option>
+                        <option value="5">51-55</option>
+                        <option value="6">56-60</option>
+                        <option value="7">61-65</option>
+                        <option value="8">66-70</option>
+                        <option value="9">71-75</option>
+                        <option value="a">76-80</option>
+                        <option value="b">81-35</option>
+                        <option value="c">86-90</option>
+
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>ECG</p>
+                    <select name="gender" id="ecg">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="row-part">
+                    <p>LAC</p>
+                    <select name="gender" id="lac">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>LAD</p>
+                    <select name="age" id="lad">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>RAC</p>
+                    <select name="gender" id="rac">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="row-part">
+                    <p>CHEST PAIN</p>
+                    <select name="gender" id="cp">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>DIABETIES</p>
+                    <select name="age" id="db">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+                <div class="row-part">
+                    <p>Family-history</p>
+                    <select name="gender" id="fh">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="row-part">
+                    <p>CHOLESTROL LEVEL</p>
+                    <select name="gender" id="cho">
+                        <option value="1">>194</option>
+                        <option value="0"><=194</option>
+                    </select>
+                </div>
+                <button id="fin">Submit</button>
+            </div>
+        </div>
+        <div class="fo" id="two">
+            Your probability of heart disease based on the information provided
+            seems to be 
+            <div id="the"></div> 
+            <div class="warn">
+                It is requested that you should please consult a doctor as the 
+            provided results don't yet have a scientific backing.
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="new.js"></script>
+</html>

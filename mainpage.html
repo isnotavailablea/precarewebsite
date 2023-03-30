@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="two">
+        Your Theoretical chances are <div id="ans"></div> it is highly recommended to you that you should 
+        consult a doctor as these results are still unproven
+  </div>
+<div class="container" id="one">
+  <h2>PRECARE</h2>
+  <form >
+    <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr">
+        <label for="age">AGE:</label>
+  <select class="form-control" id="age">
+    <option value="0">26-30</option>
+    <option value="1">31-35</option>
+    <option value="2">36-40</option>
+    <option value="3">41-45</option>
+    <option value="4">46-50</option>
+    <option value="5">51-55</option>
+    <option value="6">56-60</option>
+    <option value="7">61-65</option>
+    <option value="8">66-70</option>
+    <option value="9">71-75</option>
+    <option value="a">76-80</option>
+    <option value="b">81-85</option>
+    <option value="c">86-90</option>
+    <option value="c">>=91</option>
+  </select>
+  </form>
+  <div class="form-group">
+    <label for="gender">Gender</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="gender" id="gender">Male</label></div>
+    <label  class="radio-inline"><input type="radio" name="gender">Female</label>
+
+</div>
+<div class="form-group">
+    <label for="ecg">ECG CHANGES:</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="ecg" id="ecg">YES</label></div>
+    <label  class="radio-inline"><input type="radio" name="ecg">NO</label>
+
+</div>
+<div class="form-group">
+    <label for="LAD">LAD</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="LAD" id="lad"><=0.7</label></div>
+    <label  class="radio-inline"><input type="radio" name="LAD">>0.7</label>
+
+</div>
+<div class="form-group">
+    <label for="LAC">LAC</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="LAC" id="lac"><=0.7</label></div>
+    <label  class="radio-inline"><input type="radio" name="LAC">>0.7</label>
+
+</div>
+<div class="form-group">
+    <label for="RCA">RCA</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="RCA" id="rac"><=0.7</label></div>
+    <label  class="radio-inline"><input type="radio" name="RCA">>0.7</label>
+
+</div>
+<div class="form-group">
+    <label for="cp">CHEST PAIN</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="cp" id="cp">YES</label></div>
+    <label  class="radio-inline"><input type="radio" name="cp">NO</label>
+
+</div>
+<div class="form-group">
+    <label for="db">DIABETIC</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="db" id="db">YES</label></div>
+    <label  class="radio-inline"><input type="radio" name="db">NO</label>
+
+</div>
+<div class="form-group">
+    <label for="cho">CHOLESTROL</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="cho" id="cho"><=194</label></div>
+    <label  class="radio-inline"><input type="radio" name="cho">>194</label>
+
+</div>
+<div class="form-group">
+    <label for="fh">FAMILY-HISTORY</label>
+    <div class="radio"><label  class="radio-inline"> <input type="radio" name="fh" id="fh">YES</label></div>
+    <label  class="radio-inline"><input type="radio" name="fh">NO</label>
+
+</div>
+<button type="button" class="btn btn-success" id="fin">SUBMIT</button>
+
+</div>
+
+</body>
+<script src="backend.js">
+    
+</script>
+</html>
